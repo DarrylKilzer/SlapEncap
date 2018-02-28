@@ -12,11 +12,10 @@
 
 <body>
   <div id="player" class="text-center">
-    <form onsubmit="app.slapController.createTarget(event)">
-      <label for="name">Name</label>
+    <form onsubmit="app.slapController.createCharacter(event)">
       <input type="text" name="name">
       <input type="number" name="health">
-      <button type="submit">Create Target</button>
+      <button class="btn btn-warning" type="submit">Create Character</button>
     </form>
   </div>
   <div id="buttons">
