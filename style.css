@@ -1,0 +1,22 @@
+body{
+  background-color: green
+}
+.healthy {
+  background-color: green
+}
+
+.hurt {
+  background-color: yellow
+}
+
+.critical {
+  background-color: orange
+}
+
+.dead {
+  background-color: orangered
+}
+
+.set-width{
+  width: 300px;
+}
